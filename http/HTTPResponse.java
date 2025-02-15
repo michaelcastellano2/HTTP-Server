@@ -18,15 +18,15 @@ import java.util.HashMap;
  * @version 1.0
  */
 public class HTTPResponse {
-    /* TODO
-     * 1) Create methods and member variables to represent an HTTP response.
-     * 2) Set response fields based on the request message received.
+    /* 
+     * 1) Creates methods and member variables to represent an HTTP response.
+     * 2) Sets response fields based on the request message received.
      *      a) If the request was invalid, send a 400 Bad Request response, with errors/400.html.
      *      b) If the request path doesn't exist, send a 404 Not Found, with errors/404.html.
      *      c) Otherwise, send a 200 OK, with the full contents of the file.
      *      d) Every response must have these four headers: Server, Date, Content-Length, and Content-Type.
      *          i) Note that Date must follow the required HTTP date format.
-     * 3) Craft the response message and send it out the socket with DataOutputStream.
+     * 3) Crafts the response message and send it out the socket with DataOutputStream.
      *      a) Be sure that you use "\r\n" to separate each line.
      */
 
